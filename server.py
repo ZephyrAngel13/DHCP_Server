@@ -9,3 +9,5 @@ while True:
     print ("Se asteapta un client...")
     data,addr = s.recvfrom(1024)
     print("Mesaj: ",data," de la ",addr)
+
+    
